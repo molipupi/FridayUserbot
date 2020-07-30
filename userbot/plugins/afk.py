@@ -124,7 +124,7 @@ async def on_afk(event):
         message_to_reply = f"**My Boss is AFK** ! \n\n**Reason** : `{reason}` \n\n**Afk Since** : {afk_since}" + \
             f"\n\n__Kindly Leave A Message__ ! \n`He Will Reply To You Soon !`" \
             if reason \
-            else f"**Hello, miss sky AFK Right Now And May Be Forgot List Reason ! Any Way she Will Come Back Soon !**"
+            else f"**Hello, I'm not ignoring you. Just I don't have the  energy  to talk right now🌸  !**"
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
         if event.chat_id in last_afk_message:  # pylint:disable=E0602
